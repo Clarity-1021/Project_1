@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background: #ffffff;
+}
+
+nav, footer{
+    background: rgba(0, 128, 0, 0.644);
+}
+
+nav a{
+    cursor:pointer;
+    text-decoration: none;
+    color: white;
+    padding: 12px 28px;
+    display: inline-block;
+}
+
+.logo{
+    display: inline-block;
+    color: white;
+    padding: 5px 20px;
+    font-size: x-large;
+}
+
+nav a:link, nav a:visited{
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+}
+
+nav a:hover,nav a:active{
+    background: rgba(0, 128, 0, 0.24);
+    border-color: white;
+}
+
+.right-nav a.dropdown-nav{
+    border: none;
+}
+
+.left-nav{
+    display: inline-block;
+}
+
+.right-nav{
+    float: right;
+    display: inline-block;
+}
+
+.dropdown-content-nav{
+    min-width: 145px;
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    text-align: justify;
+}
+
+.dropdown-content-nav a{
+    color: black;
+    padding: 12px 28px;
+    display: block;
+}
+
+.right-nav:hover .dropdown-content-nav {
+    display: block;
+}
+
+.shadowed{
+    box-shadow:0px 1px 5px #8888885d;
+}
+
+footer{
+    padding-top: 5px;
+    color: white;
+    height: 300px;
+    width: 100%;
+}
+
+.my-footer{
+    width: 100%;
+    float: left;
+}

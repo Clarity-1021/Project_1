@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="259f7d19-de3f-4812-9abd-c1df4151bbce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZU9vgW0PB2DUaAF8RJM8J7CcMi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Web_project1" />
+      <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Web_project1\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="259f7d19-de3f-4812-9abd-c1df4151bbce" name="Default Changelist" comment="" />
+      <created>1584883037924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584883037924</updated>
+      <workItem from="1584883041922" duration="11628000" />
+      <workItem from="1584939802129" duration="61000" />
+      <workItem from="1584940537856" duration="3317000" />
+      <workItem from="1584961405629" duration="83000" />
+      <workItem from="1584965528508" duration="671000" />
+      <workItem from="1585051511352" duration="20228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1174" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584899130902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1174" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584899130902" />
+    <state x="1215" y="278" key="FileChooserDialogImpl" timestamp="1584966957793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1215" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584966957793" />
+    <state x="946" y="0" width="981" height="1047" key="dock-window-1" timestamp="1585053523658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="946" y="0" width="981" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1585053523658" />
+    <state x="946" y="0" width="981" height="1047" key="dock-window-2" timestamp="1585055369753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="946" y="0" width="981" height="1047" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1585055369753" />
+    <state x="290" y="418" width="595" height="1026" key="dock-window-3" timestamp="1585066724979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="290" y="418" width="595" height="1026" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1585066724979" />
+    <state x="177" y="524" width="760" height="1026" key="dock-window-4" timestamp="1585067012408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="177" y="524" width="760" height="1026" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1585067012408" />
+    <state x="1096" y="244" key="run.anything.popup" timestamp="1584888203161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584888203161" />
+    <state x="1103" y="230" key="search.everywhere.popup" timestamp="1584884943906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584884943906" />
+  </component>
+</project>

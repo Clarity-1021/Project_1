@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <base target="_self" />
+    <title>首页</title>
+</head>
+
+<style>
+    .row{
+        display: flex;
+        justify-content: space-between;
+        margin:5%;
+    }
+
+    .photo-box{
+        border-radius: 5%;
+        padding: 2% 2% 4% 2%;
+        background: rgba(0, 128, 0, 0.24);
+        display: inline-block;
+        width: 26%;
+    }
+
+    .shadowed-lg{
+        box-shadow:0px 1px 5px #7c7c7c;
+    }
+    
+    .photo-box img{
+        border-radius: 5%;
+    }
+
+    .description{
+        border-top: solid thin;
+        border-color: #adadad80;
+        padding: 3% 0 0 0;
+    }
+
+    .detail{
+        float: left;
+        text-align: center;
+        width: 150px;
+        padding: 20px 18px;
+    }
+
+    .footer-box{
+        width: 50%;
+        float: left;
+    }
+
+    .inner-box{
+        text-align: center;
+        width: 30%;
+        margin-right: 20%;
+        float: left;
+    }
+
+    .small-icon{
+        font-size: 35px;
+        margin: 7px 14px;
+        float: left;
+    }
+
+    .my-footer p{
+        font-size: smaller;
+        text-align: center;
+    }
+
+    .assist-icon:hover, .assist-icon:active{
+        color: white;
+    }
+
+    .assist-icon{
+        margin: 25px 20px;
+        color: rgba(0, 128, 0, 0.644);
+        display: block;
+        width: 50px;
+        height: 50px;
+        font-size: 50px;
+    }
+
+    .bottom-box{
+        position: fixed;
+        right: 0;
+        bottom: 50px;
+    }
+
+    .container{
+        width: 930px;
+        margin: 0 auto;
+    }
+</style>
+
+
+<body>
+    <nav class="shadowed" name="top">
+        <div class="left-nav">
+            <div class="logo"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <a href="./index.html">首页</a>
+            <a href="./browser.html">浏览页</a>
+            <a href="">搜索页</a>
+        </div>
+        <div class="right-nav">
+            <a class="dropdown-nav">&nbsp;个人中心&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+            <div class="dropdown-content-nav shadowed">
+                <a href=""><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;上传</a>
+                <a href=""><i class="fa fa-image"></i>&nbsp;&nbsp;我的照片</a>
+                <a href=""><i class="fa fa-star"></i>&nbsp;&nbsp;我的收藏</a>
+                <a href=""><i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;登入</a>
+            </div>
+        </div>    
+    </nav>
+
+    <div class="container">
+        <img src="./img/head.jpg" class="shadowed" alt="头图" width="100%" />
+
+        <div class="row">
+            <div class="photo-box shadowed">
+                <img src="./img/square_medium1.jpg" class="shadowed-lg" alt="热门图片" width="100%" />
+                <h4>Lorem, ipsum dolor.</h4>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+    
+            <div class="photo-box shadowed">
+                <img src="./img/square_medium2.jpg" class="shadowed-lg" alt="热门图片" width="100%" />
+                <h4>Lorem, ipsum dolor.</h4>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+    
+            <div class="photo-box shadowed">
+                <img src="./img/square_medium3.jpg" class="shadowed-lg" alt="热门图片" width="100%" />
+                <h4>Lorem, ipsum dolor.</h4>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="photo-box shadowed">
+                <img src="./img/square_medium4.jpg" class="shadowed-lg" alt="热门图片" width="100%" />
+                <h4>Lorem, ipsum dolor.</h4>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+    
+            <div class="photo-box shadowed">
+                <img src="./img/square_medium5.jpg" class="shadowed-lg" alt="热门图片" width="100%" />
+                <h4>Lorem, ipsum dolor.</h4>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+    
+            <div class="photo-box shadowed">
+                <img src="./img/square_medium6.jpg" class="shadowed-lg" alt="热门图片" width="100%" />
+                <h4>Lorem, ipsum dolor.</h4>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+        </div>        
+    </div>
+
+    <footer class="shadowed">
+        <div class="footer-box">
+            <div class="detail">使用条款</div>
+            <div class="detail">关于</div>
+            <div class="detail">隐私保护</div>
+            <div class="detail">联系我们</div>
+            <div class="detail">Cookie</div>
+        </div>
+        <div class="footer-box">
+            <div class="inner-box">
+                <div class="small-icon"><i class="fa fa-weibo"></i></div>
+                <div class="small-icon"><i class="fa fa-instagram"></i></div>
+                <div class="small-icon"><i class="fa fa-envelope-o"></i></div>
+                <div class="small-icon"><i class="fa fa-qrcode"></i></div>
+            </div>
+            <div class="inner-box">
+                <img src="./img/WeChat.JPG" alt="微信二维码" width="150px">
+            </div>
+        </div>
+        <div class="my-footer">
+            <br />
+            <p>Copyright #copy 2019-2021 Web fundamental. All Rights Reserved. 备案号：18307130251</p>
+        </div>
+    </footer>
+
+    <div class="bottom-box">
+        <a class="assist-icon" href="#top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+        <a class="assist-icon" href="" onclick="alert('Refresh.')">
+            <i class="fa fa-refresh"></i>
+        </a>
+    </div>
+
+</body>
+</html>
