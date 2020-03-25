@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <base target="_self" />
+    <title>上传</title>
+</head>
+
+<style>
+    .submit-box{
+        padding: 2% 3%;
+        line-height: 40px;
+        font-size: large;
+    }
+
+    .photo-box{
+        height: 200px;
+        width: 200px;
+        margin: 10px auto;
+    }
+
+    .upload-btn-box{
+        text-align: center;
+        width: 200px;
+        margin: 5px auto;
+    }
+
+    input[type=text]{
+        width: 95%;
+        height: 25px;
+        font-size: large;
+    }
+
+    .description{
+        width: 95%;
+        font-size: large;
+    }
+</style>
+
+<body>
+    <nav class="shadowed" name="top">
+        <div class="left-nav">
+            <div class="logo"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <a href="./home.html">首页</a>
+            <a href="./browser.html">浏览页</a>
+            <a href="./search.html">搜索页</a>
+        </div>
+        <div class="right-nav">
+            <a class="dropdown-nav">&nbsp;个人中心&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+            <div class="dropdown-content-nav shadowed">
+                <a href="./upload.html"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;上传</a>
+                <a href="./my_photo.html"><i class="fa fa-image"></i>&nbsp;&nbsp;我的照片</a>
+                <a href="./favor.html"><i class="fa fa-star"></i>&nbsp;&nbsp;我的收藏</a>
+                <a href="./login.html"><i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;登入</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="my-box green-thin-border">
+        <form action="">
+            <div class="my-row title-box text-intent-default">上传</div>
+            <div class="photo-box green-thin-border">
+                ￥...js实现
+            </div>
+            <div class="upload-btn-box">
+                <input type="submit" value="上传" name="upload" class="my-btn" />
+            </div>
+
+            <div class="submit-box">
+                图片标题：<br />
+                <input type="text" name="title" /><br />
+                图片描述：<br />
+                <textarea rows="6" name="description" class="description"></textarea><br />
+                拍摄国家：<br />
+                <input type="text" name="country" /><br />
+                拍摄城市：<br />
+                <input type="text" name="city" /><br />
+
+                <input class="my-btn" type="submit" value="提交" onclick="alert('提交成功')" />
+
+                <br />￥提交完之后跳转到我的照片界面
+            </div>
+        </form>
+    </div>
+
+    <div class="my-footer">
+        <p>Copyright &copy; 2019-2021 Web fundamental. All Rights Reserved. 备案号：18307130251</p>
+    </div>
+</body>
+</html>

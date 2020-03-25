@@ -17,6 +17,7 @@ nav a{
 
 .logo{
     display: inline-block;
+    vertical-align: middle;
     color: white;
     padding: 5px 20px;
     font-size: x-large;
@@ -68,14 +69,97 @@ nav a:hover,nav a:active{
     box-shadow:0px 1px 5px #8888885d;
 }
 
-footer{
-    padding-top: 5px;
-    color: white;
-    height: 300px;
+.green-thin-border{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 128, 0, 0.24);
+}
+
+.my-row, .my-row-last{
+    height: 45px;
     width: 100%;
+    line-height: 45px;
+}
+
+.my-row{
+    border-bottom: 1px solid rgba(0, 128, 0, 0.3);
+}
+
+.title-box{
+    font-size: larger;
+    background: rgba(0, 128, 0, 0.05);
+    border-bottom: 2px solid rgba(0, 128, 0, 0.12);
+}
+
+.text-intent-default{
+    text-indent: 1.5em;
 }
 
 .my-footer{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.my-page-number{
+    width: 290px;
+    margin: 25px auto;
+    letter-spacing: 15px;
+}
+
+.my-page-number a{
+    text-decoration: none;
+    color: rgb(0, 128, 0);
+}
+
+.my-page-number a:hover, .my-page-number a:active{
+    color: black;
+}
+
+.my-box{
+    margin: 25px 3%;
+}
+
+.my-photo-box, .my-photo-box-last{
+    padding: 0;
+    margin: 0;
     width: 100%;
-    float: left;
+}
+
+.my-photo-box{
+    border-bottom: 1px solid rgba(0, 128, 0, 0.3);
+}
+
+.my-img-box{
+    width: 20%;
+    display: inline-block;
+    padding: 3%;
+    vertical-align: middle;
+}
+
+.my-description-box{
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+    padding: 1%;
+    vertical-align: middle;
+}
+
+.my-btn{
+    height: 35px;
+    width: 120px;
+}
+
+.delete-btn, .modify-btn{
+    width: 100px;
+    height: 35px;
+    text-indent: 12px;
+    letter-spacing: 12px;
+}
+
+.delete-btn{
+    color: #e84118;
+}
+
+.modify-btn{
+    color: #8c7ae6;
 }
