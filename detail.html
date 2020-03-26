@@ -10,6 +10,82 @@
 </head>
 
 <style>
+    .name-box{
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .img-name{
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .img-author{
+        font-size: 14px;
+    }
+
+    .container{
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .left-box{
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-box{
+        width: 45%;
+    }
+
+    img{
+        max-width: 100%;
+        max-height: 400px;
+    }
+
+    .like-box, .detail-box, .like-btn{
+        margin: 10px;
+    }
+
+    .like-box .my-row-last{
+        color: #c23616;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .like-btn{
+        border-radius: 4px;
+        background: #c23616;
+        color: white;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heart-icon, .heart-txt{
+        margin: 0 2%;
+    }
+
+    .right-box a{
+        text-decoration: none;
+        transition: .3s;
+    }
+
+    .right-box a:hover, .right-box a:active{
+        background: rgba(0, 128, 0, 0.7);
+    }
+
+    .description-box{
+        padding: 3% 4%;
+        text-indent: 2em;
+        line-height: 40px;
+    }
 
 </style>
 
@@ -27,13 +103,53 @@
                 <a href="./upload.html"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;上传</a>
                 <a href="./my_photo.html"><i class="fa fa-image"></i>&nbsp;&nbsp;我的照片</a>
                 <a href="./favor.html"><i class="fa fa-star"></i>&nbsp;&nbsp;我的收藏</a>
-                <a href="./login.html"><i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;登入</a>
+                <a href="./index.html"><i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;登入</a>
             </div>
         </div>
     </nav>
 
     <div class="my-box green-thin-border">
         <div class="my-row title-box text-intent-default">图片详情</div>
+
+        <div class="name-box">
+            <span class="img-name">Lorem ipsum dolor.</span>
+            <span class="img-author">by Lorem ipsum.</span>
+        </div>
+
+        <div class="container">
+            <div class="left-box">
+                <img src="./img/square/square-medium/1.jpg" alt="图片" />
+            </div>
+
+            <div class="right-box">
+                <div class="like-box green-thin-border">
+                    <div class="my-row title-box text-intent-default">收藏次数</div>
+                    <div class="my-row-last">
+                        99
+                    </div>
+                </div>
+
+                <div class="detail-box green-thin-border">
+                    <div class="my-row title-box text-intent-default">图片描述</div>
+                    <div class="my-row text-intent-default">主题：风景</div>
+                    <div class="my-row text-intent-default">拍摄国家：中国</div>
+                    <div class="my-row-last text-intent-default">拍摄城市：上海</div>
+                </div>
+
+                <a class="like-btn" href="" onclick="alert('收藏成功')">
+                    <i class="fa fa-star heart-icon"></i>
+                    <span class="heart-txt">收藏</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="description-box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi architecto asperiores at, blanditiis distinctio eius, enim hic, incidunt ipsa iure laboriosam laudantium maxime nostrum praesentium quisquam rerum voluptates voluptatibus.
+        </div>
+    </div>
+
+    <div class="my-footer">
+        <p>Copyright &copy; 2019-2021 Web fundamental. All Rights Reserved. 备案号：18307130251</p>
     </div>
 </body>
 </html>

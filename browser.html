@@ -11,29 +11,32 @@
 
 <style>
     .container{
-        width: 1350px;
-        margin: 0 auto;
-    }
-
-    .col-left, .col-right{
-        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .col-left{
-        width: 360px;
+        /*border: solid;*/
+        width: 300px;
     }
 
     .col-right{
-        width: 960px;
+        /*border: solid;*/
+        width: 60%;
+        min-width: 380px;
     }
 
-    .search-by-title, .hot-country, .hot-city{
-        width: 310px;
-        margin: 20px 30px;
+    .search-by-title, .hot-country, .hot-city, .filter{
+        /*border: solid;*/
+        width: 100%;
+        margin: 5% 1%;
     }
 
     .search-by-title{
-        width: 330px;
         position: relative;
         height: 80px;
         padding: 0;
@@ -72,7 +75,7 @@
     }
 
     .search-box:hover > .search-txt{
-        width: 220px;
+        width: 180px;
         padding: 0 6px;
     }
 
@@ -93,37 +96,42 @@
         width: 0;
     }
 
-    .container a{
+    .col-left a{
         text-decoration: none;
         color: rgb(0, 128, 0);
     }
 
-    .container a:hover,.container a:active{
+    .col-left a:hover,.col-left a:active{
         color: black;
     }
 
-    .filter{
-        width: 920px;
-        height: 1110px;
-        margin: 20px 30px;
-    }
-
     .filter-select-box{
-        padding: 18px 10px;
-        height: 40px;
-        width: 900px;
+        /*border: solid;*/
+        margin: 0;
+        padding: 0;
+        /*padding: 18px 10px;*/
+        /*height: 40px;*/
+        width: 100%;
         border-bottom: 1px solid rgba(0, 128, 0, 0.3);
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        /*align-items: center;*/
     }
 
     .input-select{
-        margin-left: 8px;
-        display: inline-block;
-        vertical-align: middle;
+        /*border: solid;*/
+
+        display: block;
+        width: 20%;
+        max-width: 200px;
+        min-width: 120px;
+        margin: 10px 0 10px 0.75%;
     }
 
     .input-box{
         height: 40px;
-        width: 190px;
+        width: 100%;
         font-size: large;
     }
 
@@ -131,25 +139,44 @@
         border-radius: 5px;
     }
 
-    .bg-green{
-        background: rgba(0, 128, 0, 0.7);
-    }
-
     .filter-result-box{
-        width: 880px;
-        padding: 20px;
+        /*border: solid;*/
+
+
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
     }
 
     .photo-box{
-        margin: 20px;
-        float: left;
-        width: 180px;
+        border: solid transparent;
+        width: 20%;
+        min-width: 80px;
+        margin-top: 15px;
     }
 
     .page-number{
-        width: 290px;
-        margin: 0 auto;
-        letter-spacing: 15px;
+        margin: 3% 0 1% 0;
+        /*border: solid;*/
+        width: 100%;
+        /*letter-spacing: 15px;*/
+        display: flex;
+        justify-content: center;
+    }
+
+    .my-page-num{
+        /*border: solid;*/
+        width: 5%;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(0, 128, 0);
+        transition: .2s;
+    }
+
+    .my-page-num:hover{
+        color: black;
     }
 </style>
 
@@ -167,7 +194,7 @@
                 <a href="./upload.html"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;上传</a>
                 <a href="./my_photo.html"><i class="fa fa-image"></i>&nbsp;&nbsp;我的照片</a>
                 <a href="./favor.html"><i class="fa fa-star"></i>&nbsp;&nbsp;我的收藏</a>
-                <a href="./login.html"><i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;登入</a>
+                <a href="./index.html"><i class="fa fa-dot-circle-o"></i>&nbsp;&nbsp;登入</a>
             </div>
         </div>
     </nav>
@@ -206,8 +233,9 @@
             <div class="filter green-thin-border">
                 <div class="my-row title-box text-intent-default">筛选</div>
 
-                <div class="filter-select-box">
-                    <form name="filter" action="" method="">
+                <form name="filter_form" action="" method="">
+                    <div class="filter-select-box">
+
                         <div class="input-select">
                             <select class="input-box rounded" name="theme" id="theme">
                                 <option value="0">主题</option>
@@ -227,17 +255,18 @@
                                 <option value="美国">美国</option>
                             </select>
                         </div>
+
                         <div class="input-select">
                             <select class="input-box rounded" name="city" id="city">
                                 <option value="0">城市</option>
                             </select>
                         </div>
-                        <div class="input-select bg-green">
+
+                        <div class="input-select">
                             <input class="input-box" type="submit" value="筛选" onclick="alert('筛选成功')" />
                         </div>
-                    </form>
 
-                    <script>
+                        <script>
                         cities = new Object();
                         cities['中国']=new Array('上海','昆明','北京','烟台');
                         cities['日本']=new Array('东京', '大阪', '镰仓');
@@ -266,8 +295,8 @@
 
                         }
                     </script>
-                </div>
-
+                    </div>
+                </form>
                 <div class="filter-result-box">
                     <div class="photo-box"><img src="./img/square/square-medium/7.jpg" alt="筛选结果图片" width="100%" height="100%"/></div>
                     <div class="photo-box"><img src="./img/square/square-medium/8.jpg" alt="筛选结果图片" width="100%" height="100%"/></div>
@@ -290,13 +319,13 @@
                     <div class="photo-box"><img src="./img/square/square-medium/22.jpg" alt="筛选结果图片" width="100%" height="100%"/></div>
 
                     <div class="page-number">
-                        <a href=""><i class="fa fa-angle-double-left"></i></a>
-                        <a href="">1</a>
-                        <a href="">2</a>
-                        <a href="">3</a>
-                        <a href="">4</a>
-                        <a href="">5</a>
-                        <a href=""><i class="fa fa-angle-double-right"></i></a>
+                        <a class="my-page-num" href=""><i class="fa fa-angle-double-left"></i></a>
+                        <a class="my-page-num" href="">1</a>
+                        <a class="my-page-num" href="">2</a>
+                        <a class="my-page-num" href="">3</a>
+                        <a class="my-page-num" href="">4</a>
+                        <a class="my-page-num" href="">5</a>
+                        <a class="my-page-num" href=""><i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
