@@ -2,21 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259f7d19-de3f-4812-9abd-c1df4151bbce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/jQuery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/jQuery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/browser.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/browser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/browser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favor.html" beforeDir="false" afterPath="$PROJECT_DIR$/favor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/square/square-medium/9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cities.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +57,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="245" />
+    <option name="myElementSize" value="225" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -55,23 +88,21 @@
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Project1-temporary\src\html" />
+      <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Project1-temporary\src\js" />
+      <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Project1-temporary" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Web_project1" />
       <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Web_project1\src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Project1-temporary\src\js" />
-      <recent name="D:\Program Files\JetBrains\WebStorm 2019.3.3\WS_workplace\Project1-temporary" />
-    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.my_photo.html">
-    <configuration name="browser.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1-temporary/browser.html" useBuiltInWebServerPort="true">
+    <configuration name="browser.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1-temporary/src/html/browser.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1-temporary/home.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1-temporary/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="my_photo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1-temporary/my_photo.html" useBuiltInWebServerPort="true">
@@ -80,13 +111,16 @@
     <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1-temporary/register.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="upload.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project1-temporary/upload.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.my_photo.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.upload.html" />
         <item itemvalue="JavaScript Debug.browser.html" />
+        <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.register.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +144,8 @@
       <workItem from="1585200710889" duration="35350000" />
       <workItem from="1585276778830" duration="2556000" />
       <workItem from="1585305124332" duration="48855000" />
+      <workItem from="1585472502943" duration="18857000" />
+      <workItem from="1585493714701" duration="1217000" />
     </task>
     <servers />
   </component>
@@ -129,78 +165,78 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1215" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584966957793" />
-    <state width="1298" height="262" key="GridCell.Tab.0.bottom" timestamp="1585439549919">
+    <state width="1224" height="263" key="GridCell.Tab.0.bottom" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.0.bottom/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337639" />
     <state width="903" height="361" key="GridCell.Tab.0.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="1298" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549919" />
-    <state width="1298" height="262" key="GridCell.Tab.0.center" timestamp="1585439549919">
+    <state width="1224" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="263" key="GridCell.Tab.0.center" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.0.center/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337639" />
     <state width="903" height="361" key="GridCell.Tab.0.center/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="1298" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549919" />
-    <state width="1298" height="262" key="GridCell.Tab.0.left" timestamp="1585439549919">
+    <state width="1224" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="263" key="GridCell.Tab.0.left" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.0.left/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337638" />
     <state width="903" height="361" key="GridCell.Tab.0.left/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283217" />
-    <state width="1298" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549919" />
-    <state width="1298" height="262" key="GridCell.Tab.0.right" timestamp="1585439549919">
+    <state width="1224" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="263" key="GridCell.Tab.0.right" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.0.right/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337639" />
     <state width="903" height="361" key="GridCell.Tab.0.right/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="1298" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549919" />
-    <state width="1298" height="262" key="GridCell.Tab.1.bottom" timestamp="1585439549920">
+    <state width="1224" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="263" key="GridCell.Tab.1.bottom" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.1.bottom/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337640" />
     <state width="903" height="361" key="GridCell.Tab.1.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="1298" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549920" />
-    <state width="1298" height="262" key="GridCell.Tab.1.center" timestamp="1585439549920">
+    <state width="1224" height="263" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="263" key="GridCell.Tab.1.center" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.1.center/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337639" />
     <state width="903" height="361" key="GridCell.Tab.1.center/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="1298" height="262" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549920" />
-    <state width="1298" height="262" key="GridCell.Tab.1.left" timestamp="1585439549919">
+    <state width="1224" height="263" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="263" key="GridCell.Tab.1.left" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.1.left/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337639" />
     <state width="903" height="361" key="GridCell.Tab.1.left/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="1298" height="262" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549919" />
-    <state width="1298" height="262" key="GridCell.Tab.1.right" timestamp="1585439549920">
+    <state width="1224" height="263" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="263" key="GridCell.Tab.1.right" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="900" height="275" key="GridCell.Tab.1.right/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337639" />
     <state width="903" height="361" key="GridCell.Tab.1.right/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="1298" height="262" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549920" />
-    <state width="914" height="344" key="GridCell.Tab.2.bottom" timestamp="1585439549905">
+    <state width="1224" height="263" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696285" />
+    <state width="1224" height="340" key="GridCell.Tab.2.bottom" timestamp="1585493696281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1321" height="360" key="GridCell.Tab.2.bottom/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337575" />
     <state width="903" height="361" key="GridCell.Tab.2.bottom/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="914" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549905" />
-    <state width="914" height="344" key="GridCell.Tab.2.center" timestamp="1585439549905">
+    <state width="1224" height="340" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696281" />
+    <state width="1224" height="340" key="GridCell.Tab.2.center" timestamp="1585493696281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1321" height="360" key="GridCell.Tab.2.center/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337575" />
     <state width="903" height="361" key="GridCell.Tab.2.center/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="914" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549905" />
-    <state width="914" height="344" key="GridCell.Tab.2.left" timestamp="1585439549905">
+    <state width="1224" height="340" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696281" />
+    <state width="1224" height="340" key="GridCell.Tab.2.left" timestamp="1585493696281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1321" height="360" key="GridCell.Tab.2.left/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337575" />
     <state width="903" height="361" key="GridCell.Tab.2.left/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="914" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549905" />
-    <state width="914" height="344" key="GridCell.Tab.2.right" timestamp="1585439549905">
+    <state width="1224" height="340" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696281" />
+    <state width="1224" height="340" key="GridCell.Tab.2.right" timestamp="1585493696281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1321" height="360" key="GridCell.Tab.2.right/0.0.1847.1080@0.0.1847.1080" timestamp="1585304337575" />
     <state width="903" height="361" key="GridCell.Tab.2.right/0.0.1854.1080@0.0.1854.1080" timestamp="1585236283218" />
-    <state width="914" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585439549905" />
+    <state width="1224" height="340" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585493696281" />
     <state width="765" height="361" key="GridCell.Tab.3.bottom" timestamp="1585243942561">
       <screen x="0" y="0" width="1847" height="1080" />
     </state>
@@ -249,11 +285,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="177" y="524" width="760" height="1026" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1585067012408" />
-    <state x="560" y="186" key="run.anything.popup" timestamp="1585150697991">
-      <screen x="0" y="0" width="1854" height="1080" />
+    <state x="1096" y="244" key="run.anything.popup" timestamp="1585483015562">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="186" key="run.anything.popup/0.0.1854.1080@0.0.1854.1080" timestamp="1585150697991" />
-    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584888203161" />
+    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585483015562" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1585421467477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,8 +297,9 @@
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585421467477" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Project1_temporary$my_photo_html.dat" NAME="my_photo.html Coverage Results" MODIFIED="1585426028502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Project1_temporary$my_photo_html.dat" NAME="my_photo.html Coverage Results" MODIFIED="1585490230205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Project1_temporary$home_html.dat" NAME="home.html Coverage Results" MODIFIED="1585430025516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Project1_temporary$upload_html.dat" NAME="upload.html Coverage Results" MODIFIED="1585489188765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Project1_temporary$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1585426424799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
