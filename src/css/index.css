@@ -106,7 +106,7 @@ body{
     /*-webkit-clip-path: ellipse(100px 100px at 0% 50%);*/
     clip-path: ellipse(100px 100px at 0% 50%);
     animation: spotlight 3s infinite;
-    background-image: url('./img/han-lahandoe-GkjabALRTN0-unsplash.jpg');
+    background-image: url('../../img/han-lahandoe-GkjabALRTN0-unsplash.jpg');
     background-size: 150%;
     background-position: center center;
     -webkit-background-clip: text;

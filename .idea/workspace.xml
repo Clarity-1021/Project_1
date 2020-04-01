@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259f7d19-de3f-4812-9abd-c1df4151bbce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/browser.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/upload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/browser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/head.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/square/square-medium/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_photo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/VS_workplace/front" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
@@ -146,6 +102,11 @@
       <workItem from="1585305124332" duration="48855000" />
       <workItem from="1585472502943" duration="18857000" />
       <workItem from="1585493714701" duration="1217000" />
+      <workItem from="1585550873767" duration="32000" />
+      <workItem from="1585631433665" duration="877000" />
+      <workItem from="1585663433641" duration="618000" />
+      <workItem from="1585664508120" duration="42000" />
+      <workItem from="1585664781258" duration="1622000" />
     </task>
     <servers />
   </component>
@@ -161,10 +122,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1174" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584899130902" />
-    <state x="1215" y="278" key="FileChooserDialogImpl" timestamp="1584966957793">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1169" y="289" key="FileChooserDialogImpl" timestamp="1585664547303">
+      <screen x="0" y="0" width="1847" height="1080" />
     </state>
-    <state x="1215" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584966957793" />
+    <state x="1169" y="289" key="FileChooserDialogImpl/0.0.1847.1080@0.0.1847.1080" timestamp="1585664547303" />
+    <state x="1215" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585550903241" />
     <state width="1224" height="263" key="GridCell.Tab.0.bottom" timestamp="1585493696285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
